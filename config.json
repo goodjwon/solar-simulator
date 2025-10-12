@@ -1,0 +1,35 @@
+{
+  "device_id": "SOLAR_PANEL_01",
+  "api_endpoint": "http://localhost:8080/api/sensors/data",
+  "simulation_interval_seconds": 10,
+  "location": {
+    "latitude": 37.5665,
+    "longitude": 126.9780,
+    "timezone": "Asia/Seoul"
+  },
+  "weather_api": {
+    "use_real_weather": true,
+    "api_key": "59a10d9cf94201aac9d0c8e93f2ea70c"
+  },
+  "solar_panel": {
+    "max_power_per_panel_watt": 350,
+    "panel_count": 4
+  },
+  "battery": {
+    "enabled": true,
+    "capacity_kwh": 10,
+    "initial_soc_percent": 50.0
+  },
+  "home_consumption": {
+    "day_peak_watt": 1000,
+    "night_watt": 150
+  },
+  "environment": {
+    "weather": "Clear",
+    "ambient_temp_c": 25.0,
+    "humidity_percent": 60.0
+  },
+  "additional_sensors": {
+    "panel_temperature_sensors": 1
+  }
+}
