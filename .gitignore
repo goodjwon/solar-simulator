@@ -88,9 +88,16 @@ ENV/
 
 # Data files
 *.csv
+sensor_data_log.csv
+
+# Simulation results and comparison files
+simulation_v1_results.csv
+simulation_v2_results.csv
+simulator_comparison.png
+test_azimuth.py
 
 # Config files (if they contain secrets)
-# config.json 
+# config.json
 # uncomment the line above if your config.json contains sensitive information
 # like API keys that should not be committed.
 
